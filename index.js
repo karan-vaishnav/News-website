@@ -3,7 +3,7 @@ let newsAccordion = document.getElementById('newsAccordion');
 
 //creat an ajax get request
 const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://newsapi.org/v2/top-headlines?country=in&apiKey=ca112af2f9f44241a0604237581b97fa', true);
+xhr.open('GET', 'https://saurav.tech/NewsAPI/top-headlines/category/health/in.json', true);
 // What to do when response is ready
 xhr.onload = function () {
     if (this.status === 200) {
